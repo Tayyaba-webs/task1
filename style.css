@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-bg {
+    background-color: rgb(10, 10, 55);
+}
+.hero-section {
+    padding-top: 8rem;
+}
+.secton{
+    padding: 7rem 5rem;
+}
+.pic {
+    width: 4vw;
+}
+.card {
+    border: none;
+}
+.main {
+    background-color: rgb(10, 10, 55);
+    padding: 3rem;
+    margin-top: auto;
+}
+.ab {
+    position: relative;
+}
+.bc {
+    position: absolute;
+    z-index: 1000;
+    left: -24rem;
+    box-shadow: 0rem 0rem 1rem black;
+}
+.secton-grow {
+    background-color: azure;
+}
+.intro {
+    background-color: rgb(10, 10, 55);
+    padding: 5rem 0rem;
+}
+.text {
+    color: rgb(252, 83, 139);
+}
+.para {
+    color: white;
+}
+.part {
+    background-color: none;
+}
+.main-bg {
+    background-color: rgb(3, 3, 54);
+}
+.icon {
+    cursor: pointer;
+    position: relative;
+}
+.icon::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 1rem;
+    bottom: 0;
+    width:0%;
+    background-color: white;
+    transition: width .2s;
+    margin: auto;
+}
+.icon:hover:after {
+    width: 70%;
+}
+.man-btn {
+   border: 2px solid white;
+}
+.secton {
+    padding: 5rem ;
+}
+.main-h {
+    font-size: 4rem;
+}
+.main-p {
+    font-size: 1.6rem;
+}
+.main-mg {
+    width: 90vh;
+}
+.bob-btn {
+    width: 180px;
+    padding: 0.8rem;
+    color: white;
+    border: none;
+    background-image: linear-gradient(#fb448b ,#f95a81 ,#f1c677);
+    box-shadow: 2px 5px 9px gray;
+    
+}
+.bob-btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+.main{
+    color: #fb448b;
+}
+.img {
+   background-color: white;
+   border-radius: 50%;
+   width: 100px;
+   padding: 2rem;
+   margin: auto;
+   box-shadow: 0px 3px 5px gray;
+}
+.fast {
+    background-color: aliceblue;
+}
+.servce {
+    color: #fb448b;
+}
+.servce-card {
+    color: white;
+    background-color: transparent;
+    border: 0.03px solid rgba(165, 163, 163, 0.658);
+}
+.servce-card:hover {
+    background-color: rgba(46, 46, 66, 0.692);
+    border: none;
+    transition: ease 1s;
+}
+.btn-quart {
+
+    width: 220px;
+    border: 1px solid #fb448b ;
+    color: #fb448b;
+    background-color: transparent;
+}
+.btn-quart:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+.bta {
+    padding: 7rem 2rem;
+    border: none;
+}
+.pic {
+    width: 100%; 
+    background-color: rgba(9, 9, 109, 0.422);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 11rem 0rem;
+}
+.pic-as {
+    background: url(img/section_bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2rem 0rem;
+}
+.end {
+    padding: 7rem 0rem;
+}
+.card {
+    background-color: none;
+} 
